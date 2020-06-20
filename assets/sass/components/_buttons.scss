@@ -1,0 +1,36 @@
+.navbar__buttons-right {
+    float: right;
+}
+
+.navbar__buttons-white {
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin: 0px 0px 15px 15px;
+    background-color: $white; 
+    color: $quick-silver;
+    border: solid;
+    border-color: $quick-silver;
+    padding: 1% 2%;
+    font-family: $ptmono;
+    font-weight: $regular;
+    font-size: $medium;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar__buttons-green {
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin: 0px 0px 15px 15px;    
+    background-color: $shiny-shamrock; 
+    color: $white;
+    border: none;
+    padding: 1% 2%;
+    font-family: $ptmono;
+    font-weight: $regular;
+    font-size: $medium;
+    text-align: center;
+    text-decoration: none;
+}

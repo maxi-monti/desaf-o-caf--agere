@@ -1,0 +1,72 @@
+// Navbar
+
+.navbar {
+    background-color: $white;
+    overflow: hidden;
+}
+
+.navbar__buttons-left {
+    float: left;
+}
+
+.navbar__option {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: $ptmono;
+    font-size: $regular;
+    color: $quick-silver;
+}
+  
+.navbar__img {
+    float: left;
+    height: 43px;
+    width: 29px;
+}
+
+// Header
+
+.header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header__img1 {
+    float: left;
+    position: relativ;
+    top: 0;
+    bottom: 0%;
+    left: 0;
+    right: 25%; 
+    width: 75%;
+}
+
+.header__text {
+    float: left;
+    width: 25%;
+    margin-top: 5%;
+}
+
+.header__text-title {
+    color: $black;
+    font-family: $ptmono;
+    font-weight: $regular;
+    font-size: $xxx-large;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 10%;
+}
+
+.header__text-p {
+    color: $black;
+    font-family: $roboto;
+    font-weight: $light;
+    font-size: $large;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 10%;
+}
+

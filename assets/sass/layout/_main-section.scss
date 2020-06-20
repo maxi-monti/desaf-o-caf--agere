@@ -1,0 +1,140 @@
+// Section 1
+
+.section1 {
+    text-align: left;
+}
+
+.section1__whitebox {
+    position: absolute;
+    width: 469px;
+    height: 136px;
+    background-color: $white;
+    margin-top: 26%;
+    margin-left: 39%;
+}
+
+.section1__text {
+    float: left;
+    margin: 3% 2.1%;
+}
+
+.section1__text-title {
+    text-align: left;
+    padding: 1%;
+    margin-left: 25%;
+    color: $black;
+    font-family: $ptmono;
+    font-weight: $regular;
+    font-size: $xx-large;
+    text-decoration: none;
+}
+
+.section1__text-p {
+    text-align: left;
+    padding: 1%;
+    margin-left: 25%;
+    color: $black;
+    font-family: $roboto;
+    font-weight: $light;
+    font-size: 13px;
+    text-decoration: none;
+    width: 60%;
+}
+
+.section1__arrowicon {
+    color: $white;
+    margin: 28%;
+}
+
+.section1__orangebox {
+    position: absolute;
+    z-index: 1;
+    width: 134.27px;
+    height: 136.67px;
+    background-color: $flame;
+    margin-top: 24%;
+    margin-left: 74%;
+}
+
+.section1__yellowbox {
+    position: absolute;
+    z-index: 0;
+    width: 134.27px;
+    height: 136.67px;
+    background-color: $buff;
+    margin-top: 26%;
+    margin-left: 76%;
+}
+
+// Section 2
+
+.section2 {
+    margin-top: 38%;
+    text-align: left;
+}
+
+.section2__text {
+    width: 100%;
+    height: 50%;
+}
+
+.section2__text-title {
+    padding: 1%;
+    margin-left: 3%;
+    color: $black;
+    font-family: $ptmono;
+    font-weight: $regular;
+    font-size: $x-large;
+    text-decoration: none;
+}
+
+.section2__text-p {
+    width: 30%;
+    padding: 1%;
+    margin-left: 3%;
+    color: $black;
+    font-family: $roboto;
+    font-weight: $light;
+    font-size: $medium;
+    text-decoration: none;
+}
+
+// Figure
+
+.figure__bluebox {
+    position: absolute;
+    width: 469px;
+    height: 232px;
+    background-color: $blue-de-france;
+    margin-top: -14%;
+    margin-left: 39%;
+    z-index: -3;
+}
+
+.figure__img2 {
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 70%;
+    width: 381px;
+    height: 264px;    
+    z-index: -2;
+}
+
+.figure__img4 {
+    position: absolute;
+    margin-top: -11%;
+    margin-left: 35%;
+    width: 396px;
+    height: 210px;    
+    z-index: -1;
+}
+
+.figure__img3 {
+    position: absolute;
+    transform: rotate(90deg);
+    margin-top: -11%;
+    margin-left: 65%;
+    width: 165px;
+    height: 96px;    
+    z-index: 1;
+}
